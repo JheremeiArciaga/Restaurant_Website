@@ -51,7 +51,7 @@ var swiper = new Swiper(".mySwiper", {
  ScrollReveal().reveal("#heads", {
    origin: "top",
  });
- ScrollReveal().reveal(".product-list, .containersss", { 
+ ScrollReveal().reveal(".containersss", { 
   origin: "bottom" });
  ScrollReveal().reveal(
    "#abadu, .contact-address",{  
