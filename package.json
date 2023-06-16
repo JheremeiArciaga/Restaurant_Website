@@ -1,0 +1,26 @@
+{
+  "name": "restaurant_website",
+  "version": "1.0.0",
+  "description": "https://jheremeiarciaga.github.io/Restaurant_website/",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://JheremeiArciaga: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@github.com/JheremeiArciaga/Restaurant_website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JheremeiArciaga/Restaurant_website/issues"
+  },
+  "homepage": "https://github.com/JheremeiArciaga/Restaurant_website#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "jest": "^29.5.0",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2"
+  }
+}
