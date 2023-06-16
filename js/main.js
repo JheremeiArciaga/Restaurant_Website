@@ -25,9 +25,36 @@ var swiper = new Swiper(".mySwiper", {
   });
   
   let loader = document.getElementById("page-loader");
+
   window.addEventListener('load', function(load) {
     window.removeEventListener('load', load, false);               
-    setTimeout(function(){loader.style.display = 'none'},1000);
+    setTimeout(function(){loader.style.display = 'none'},2000);
   
   },false);
+
+// window.addEventListener("load", () => {
+//   const loader = document.getElementById("#page-loader");
+
+//   loader.classList.add("loader-hidden");
+
+//   loader.addEventListener("transitionend", () => {
+//     document.body.removeChild("page-loader");
+//   })
+// })
+
+ ScrollReveal({
+   reset: true,
+   distance: "60px",
+   duration: 2000,
+   delay: 200,
+ });
+ ScrollReveal().reveal("#heads", {
+   origin: "top",
+ });
+ ScrollReveal().reveal(".product-list, .containersss", { origin: "bottom" });
+ ScrollReveal().reveal(
+   "#abadu, .contact-address",
+   {  origin: "left" }
+ );
+ ScrollReveal().reveal(".abno, .contact-box", { origin: "right" });
  

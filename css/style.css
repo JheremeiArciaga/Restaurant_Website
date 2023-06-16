@@ -17,21 +17,39 @@ html {
   /* property + value */
   scroll-behavior: smooth;
   scroll-padding-top: 150px;
+  overflow-x: hidden;
   
+  
+}
+html,
+body{
+width:100%;
+
+
+}
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #f5f5f591;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 124, 36);
 }
 
 
 
 #page-loader{
+position: fixed;
+top: 0;
+left: 0;
 align-items: center;
 background-color:white ;
 display: flex;
-width: 100%;
+width: 100vw;
 justify-content: center;
 height: 100vh;
-position: relative;
-z-index: 4000;
-overflow-y: hidden;
+z-index: 2000;
 }
 
 .loading {
@@ -39,8 +57,12 @@ overflow-y: hidden;
   width: 400px;
   height: 400px;
   overflow: hidden;
+  
 }
-
+.loader-hidden{
+  opacity: 0;
+  visibility: hidden;
+}
 .loading .cooking {
   position: absolute;
   top: 25%;
@@ -1077,7 +1099,7 @@ transition: letter-spacing 0.5s, left 0.5s;
 /* contact section */
 .contact-address {
   height: 105vh;
-  
+
   margin: 0;
 }
 .contact-address h5 {
@@ -1100,24 +1122,25 @@ transition: letter-spacing 0.5s, left 0.5s;
 .contact-tos {
   min-width: 30px;
   width: 100%;
+  
 }
 .contact-bes .tos {
   width: 100%;
+  margin-bottom: 1.5rem;
 }
 
 .contact-box {
   position: relative;
-
   transform: translate(700px, -400px);
   width: 45%;
   max-width: 600px;
-
   background: #e0e0e0;
   box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
   height: 80vh;
   padding: 20px;
   border-radius: 10px;
   margin: 0;
+  
 }
 /* desktop */
 @media (min-width: 1521px) {
@@ -1193,9 +1216,7 @@ transition: letter-spacing 0.5s, left 0.5s;
   .contact-box {
     transform: none;
     width: auto;
-    margin: 5px;
     margin: auto;
-    height: auto;
   }
   .contact-bes {
     width: auto;
@@ -1205,7 +1226,10 @@ transition: letter-spacing 0.5s, left 0.5s;
     height: auto;
     margin-bottom: 50px;
   }
+
+ 
 }
+    
 @media (max-width: 960px) {
   .contact-box {
     transform: none;
@@ -1859,10 +1883,12 @@ transition: letter-spacing 0.5s, left 0.5s;
   text-align: center;
   padding-bottom: 20px;
   font-size: clamp(0.75rem, 0.125rem + 2vw, 1.25rem);
+  
 }
 .tes {
   padding: 40px;
   width: 100%;
+  margin-top: 5rem;
   background: rgb(255, 124, 36);
   background: linear-gradient(
     98deg,
@@ -2012,15 +2038,13 @@ transition: letter-spacing 0.5s, left 0.5s;
 
 .soc {
   position: absolute;
-  top: 130%;
-  height: 70vh;
+  top:112%;
+  height: auto;
   width: 100%;
+  margin-top: 25rem;
 }
-@media (max-width: 576px) {
-  .soc {
-    top: 165%;
-  }
-}
+
+
 /* log in */
 .header-mo-din-to-no {
   width: 100%;
