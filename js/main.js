@@ -51,10 +51,11 @@ var swiper = new Swiper(".mySwiper", {
  ScrollReveal().reveal("#heads", {
    origin: "top",
  });
- ScrollReveal().reveal(".product-list, .containersss", { origin: "bottom" });
+ ScrollReveal().reveal(".product-list, .containersss", { 
+  origin: "bottom" });
  ScrollReveal().reveal(
-   "#abadu, .contact-address",
-   {  origin: "left" }
+   "#abadu, .contact-address",{  
+    origin: "left" }
  );
- ScrollReveal().reveal(" .contact-box", { origin: "right" });
+ ScrollReveal().reveal("", { origin: "right" });
  
