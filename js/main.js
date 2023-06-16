@@ -44,7 +44,7 @@ var swiper = new Swiper(".mySwiper", {
 
  ScrollReveal({
    reset: true,
-   distance: "60px",
+   distance: "70px",
    duration: 2000,
    delay: 200,
  });
@@ -56,5 +56,5 @@ var swiper = new Swiper(".mySwiper", {
    "#abadu, .contact-address",
    {  origin: "left" }
  );
- ScrollReveal().reveal(".abno, .contact-box", { origin: "right" });
+ ScrollReveal().reveal(" .contact-box", { origin: "right" });
  
