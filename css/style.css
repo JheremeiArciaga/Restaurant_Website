@@ -642,6 +642,9 @@ transition: letter-spacing 0.5s, left 0.5s;
     max-width: 100px;
     max-height: 25px;
   }
+  .menu-container .li-li .nav-links::after {
+    display:none;
+  }
 }
 .hero-wrapper .form-code input::placeholder {
   padding-left: 0;
