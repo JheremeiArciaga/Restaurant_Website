@@ -1155,11 +1155,11 @@ transition: letter-spacing 0.5s, left 0.5s;
     height: auto;
     width: 30%;
    
-    transform: translate(1000px, -700px);
+    transform: translate(950px, -650px);
   }
   .contact-bes {
     width: 100%;
-    margin: 250px;
+    margin: 200px;
   }
 }
 @media (min-width: 1351px) and (max-width: 1520px) {
