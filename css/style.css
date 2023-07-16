@@ -1154,7 +1154,7 @@ transition: letter-spacing 0.5s, left 0.5s;
   .contact-box {
     height: auto;
     width: 30%;
-  
+   
     transform: translate(1000px, -700px);
   }
   .contact-bes {
