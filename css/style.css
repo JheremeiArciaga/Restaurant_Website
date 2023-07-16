@@ -1146,6 +1146,9 @@ transition: letter-spacing 0.5s, left 0.5s;
 }
 /* desktop */
 @media (min-width: 1521px) {
+  #aboutusi{
+    display: none;
+  }
   .contact-address {
     height: 90vh;
     width: 100%;
@@ -1209,6 +1212,9 @@ transition: letter-spacing 0.5s, left 0.5s;
     width: 45%;
     margin-left: 100px;
     height: auto;
+  }
+  #aboutusi{
+    display: none;
   }
 }
 @media (min-width: 1121px) and (max-width: 1350px) {
