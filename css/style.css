@@ -1102,7 +1102,6 @@ transition: letter-spacing 0.5s, left 0.5s;
 /* contact section */
 .contact-address {
   height: 105vh;
-
   margin: 0;
 }
 .contact-address h5 {
@@ -1148,14 +1147,14 @@ transition: letter-spacing 0.5s, left 0.5s;
 /* desktop */
 @media (min-width: 1521px) {
   .contact-address {
-    height: 70vh;
+    height: 90vh;
     width: 100%;
-    justify-content: center;
+ 
   }
   .contact-box {
     height: auto;
     width: 30%;
-    margin-left: 130px;
+  
     transform: translate(1000px, -700px);
   }
   .contact-bes {

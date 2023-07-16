@@ -54,7 +54,7 @@ var swiper = new Swiper(".mySwiper", {
  ScrollReveal().reveal(".containersss", { 
   origin: "bottom" });
  ScrollReveal().reveal(
-   "#abadu, .contact-address",{  
+   "#abadu",{  
     origin: "left" }
  );
  ScrollReveal().reveal("", { origin: "right" });
